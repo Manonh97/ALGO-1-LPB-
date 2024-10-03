@@ -1,0 +1,25 @@
+\\ Encoder une valeur entier
+\\Si valeur est >0 et <5 afficher ">0 et <5"
+\\Si valeur est égale à 7 ou égale à 10 afficher "=7 ou = 10"
+\\Si valeur est multiple de 20 ou égale à 30 et + petit que 100 afficher "ok"
+\\Dans tous les autres cas, afficher "merci"
+
+\\ Module principal
+DÉBUT
+    ECRIRE "Entre un nombre"
+    LIRE nombre
+   
+    SI nombre >0 ET nombre <5 ALORS
+        ECRIRE ">0et<5"
+        SINON
+             SI nombre = 7 OU nombre = 10 ALORS
+                ECRIRE "=7ou=10"
+             SINON
+                 SI ( nombre % 20 = 0 OU nombre = 30 ) ET nombre <100 ALORS 
+                    ECRIRE "ok"
+                 SINON 
+                    ECRIRE "merci"  
+                 FINSI    
+            FINSI
+       FINSI   
+FIN
