@@ -1,0 +1,15 @@
+\\EXERCICE 1
+\\ Module principal
+DÉBUT
+    ECRIRE "Donne moi un nombre"
+    LIRE nombre 
+    SI nombre <10 ALORS 
+        ECRIRE "Bonjour"
+    SINON 
+        SI nombre %10 = 0 ALORS
+            ECRIRE "a demain"
+        SINON 
+            ECRIRE "au revoir"
+        FINSI 
+    FINSI
+FIN
