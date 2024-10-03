@@ -3,6 +3,7 @@
 \\Si valeur est égale à 7 ou égale à 10 afficher "=7 ou = 10"
 \\Si valeur est multiple de 20 ou égale à 30 et + petit que 100 afficher "ok"
 \\Dans tous les autres cas, afficher "merci"
+\\ ET est prioritaire sur OU
 
 \\ Module principal
 DÉBUT
